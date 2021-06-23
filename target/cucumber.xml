@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.421">
+    <testcase classname="Unknown" name="Wales user NHS cost" time="14.86">
+        <system-out><![CDATA[Given I am on nhsbsa homepage...............................................passed
+When I click Start..........................................................passed
+And I select Wales and click Next button....................................passed
+And I enter my dob "12", "12", "1990" and click Next button.................passed
+And I select "no" for my living situation question and click Next button....passed
+And I select "no" for my Benefit or Tax credit situation question and click Next button.passed
+And I select "no" for my pregnancy or birth situation question and click Next button.passed
+And I select "no" for injury or illness from armed forces questions and click Next button.passed
+And I select "no" for diabetic condition question and click Next button.....passed
+And I select "no" for glaucoma condition question and click Next button.....passed
+And I select "no" for live permanently in a care question and click Next button.passed
+And I select "no" for savings and investment option and click Next button...passed
+Then decision should contain "You get free:" and "You get help with NHS costs".passed
+]]></system-out>
+    </testcase>
+</testsuite>

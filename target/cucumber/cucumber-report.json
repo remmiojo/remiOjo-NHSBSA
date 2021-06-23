@@ -1,0 +1,279 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T20:44:41.254Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2848669200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.innitialize()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Wales user NHS cost",
+        "description": "",
+        "id": ";wales-user-nhs-cost;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3217355600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1480309800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on nhsbsa homepage",
+            "match": {
+              "location": "stepDef.WalesNHSHelpStepDefs.i_am_on_nhsbsa_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 760039100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Start",
+            "match": {
+              "location": "stepDef.WalesNHSHelpStepDefs.iClickStart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 557976100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select Wales and click Next button",
+            "match": {
+              "location": "stepDef.WalesNHSHelpStepDefs.iSelectWalesAndClickNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 966133400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my dob \"12\", \"12\", \"1990\" and click Next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"1990\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDef.WalesNHSHelpStepDefs.iEnterMyDobAndClickNextButton(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 583931300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select \"no\" for my living situation question and click Next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDef.WalesNHSHelpStepDefs.iSelectForMyLivingSituationQuestionAndClickNextButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 579811300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select \"no\" for my Benefit or Tax credit situation question and click Next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDef.WalesNHSHelpStepDefs.iSelectForMyBenefitOrTaxCreditSituationQuestionAndClickNextButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 556605400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select \"no\" for my pregnancy or birth situation question and click Next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDef.WalesNHSHelpStepDefs.iSelectForMyPregnancyOrBirthSituationQuestionAndClickNextButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 560478400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select \"no\" for injury or illness from armed forces questions and click Next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDef.WalesNHSHelpStepDefs.iSelectForInjuryOrIllnessFromArmedForcesQuestionsAndClickNextButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 572306600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select \"no\" for diabetic condition question and click Next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDef.WalesNHSHelpStepDefs.iSelectForDiabeticConditionQuestionAndClickNextButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 576333000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select \"no\" for glaucoma condition question and click Next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDef.WalesNHSHelpStepDefs.iSelectForGlaucomaConditionQuestionAndClickNextButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 553128600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select \"no\" for live permanently in a care question and click Next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDef.WalesNHSHelpStepDefs.iSelectForLivePermanentlyInACareQuestionAndClickNextButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 736062100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select \"no\" for savings and investment option and click Next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDef.WalesNHSHelpStepDefs.iSelectForSavingsAndInvestmentOptionAndClickNextButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130163800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "decision should contain \"You get free:\" and \"You get help with NHS costs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You get free:\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"You get help with NHS costs\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDef.WalesNHSHelpStepDefs.decisionShouldContainAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testToRun"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/featureFiles/WalesNHSHelp.feature",
+    "tags": []
+  }
+]
